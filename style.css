@@ -1,0 +1,122 @@
+html {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: none;
+}
+
+main {
+  margin: 30px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section {
+  max-width: 400px;
+}
+
+section * {
+  margin: 40px;
+}
+
+img {
+  margin-bottom: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 25px;
+  color: #ffffffbf;
+}
+
+button {
+  margin-top: 0;
+  height: 40px;
+  width: 130px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 3px solid #f2f2f2;
+  color: #f2f2f2 !important;
+}
+
+#sedans-section,
+#sedans-section button:hover {
+  background-color: #e38826;
+}
+
+#sedans-section button {
+  color: #e38826;
+}
+
+#suvs-section,
+#suvs-section button:hover {
+  background-color: #006970;
+}
+
+#suvs-section button {
+  color: #006970;
+}
+
+#luxury-section,
+#luxury-section button:hover {
+  background-color: #004241;
+}
+
+#luxury-section button {
+  color: #004241;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 900px) {
+  main {
+    width: 900px;
+
+    display: flex;
+  }
+
+  button {
+    margin-top: 30px;
+  }
+}
